@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     text: {
-        marginTop: 150,
         padding: 20,
         color: 'green',
         backgroundColor: 'lightgreen',

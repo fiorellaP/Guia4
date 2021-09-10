@@ -3,6 +3,7 @@ import { SafeAreaView, StyleSheet, View, Text, StatusBar } from "react-native";
 import Form from './src/components/Form';
 import Button from './src/components/Button';
 import Result from './src/components/Result';
+
 export default function App() {
   const [nombre, setNombre] = useState(null);
   const [base, setBase] = useState(0);
@@ -23,7 +24,7 @@ export default function App() {
   };
 
   return (
-      <SafeAreaView style={styles.Header}>
+      <SafeAreaView style={{flex:1}}>
       <View style = { styles.container }>
         <Text style={styles.HeadApp}>Calculo del salario neto</Text>
         <Form setNombre={setNombre} setBase={setBase} />
